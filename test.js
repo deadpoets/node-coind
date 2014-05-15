@@ -1,7 +1,7 @@
 
-var blackcoin = require('./lib');
+var guldencoin = require('./lib');
 
-var client = new blackcoin.Client({
+var client = new guldencoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',
