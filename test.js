@@ -1,7 +1,7 @@
 
-var tacocoin = require('./lib');
+var xtracoin = require('./lib');
 
-var client = new tacocoin.Client({
+var client = new xtracoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',
