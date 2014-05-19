@@ -1,7 +1,7 @@
 
-var xtracoin = require('./lib');
+var bankcoin = require('./lib');
 
-var client = new xtracoin.Client({
+var client = new bankcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',

@@ -1,19 +1,16 @@
 {
-  "name": "node-xtracoin",
-  "description": "Communicate with xtracoind via JSON-RPC",
+  "name": "node-bankcoin",
+  "description": "Communicate with bankcoind via JSON-RPC",
   "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
-    "xtracoin",
+    "bankcoin",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
-  "dependencies": {
-    "deprecate": "~0.1.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Coinnext/node-xtracoin.git"
+    "url": "git://github.com/Coinnext/node-bankcoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
