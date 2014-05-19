@@ -1,7 +1,7 @@
 {
   "name": "node-tacocoin",
   "description": "Communicate with tacocoind via JSON-RPC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "keywords": [
     "tacocoin",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doomhz/node-tacocoin.git"
+    "url": "git://github.com/Coinnext/node-tacocoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
