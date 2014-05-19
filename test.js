@@ -1,7 +1,7 @@
 
-var guldencoin = require('./lib');
+var tacocoin = require('./lib');
 
-var client = new guldencoin.Client({
+var client = new tacocoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',

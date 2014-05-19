@@ -1,16 +1,16 @@
-# node-guldencoin
+# node-tacocoin
 
-node-guldencoin is a simple wrapper for the guldencoin client's JSON-RPC API.
+node-tacocoin is a simple wrapper for the tacocoin client's JSON-RPC API.
 
 ## Install
 
-`npm install node-guldencoin`
+`npm install node-tacocoin`
 
 ## Examples
 
 ### Create client
 ```js
-var client = new guldencoin.Client({
+var client = new tacocoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',
@@ -54,18 +54,18 @@ client.cmd(batch, function(err, address) {
 ## SSL
 See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
 
-If you're using this to connect to guldencoind across a network it is highly
+If you're using this to connect to tacocoind across a network it is highly
 recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
-resulting in theft of your guldencoins.
+resulting in theft of your tacocoins.
 
 When enabling `ssl` by setting the configuration option to `true`, the `sslStrict`
 option (verifies the server certificate) will also be enabled by default. It is 
-highly recommended to specify the `sslCa` as well, even if your guldencoind has
+highly recommended to specify the `sslCa` as well, even if your tacocoind has
 a certificate signed by an actual CA, to ensure you are connecting
-to your own guldencoind.
+to your own tacocoind.
 
 ```js
-var client = new guldencoin.Client({
+var client = new tacocoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',

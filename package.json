@@ -1,10 +1,10 @@
 {
-  "name": "node-guldencoin",
-  "description": "Communicate with guldencoind via JSON-RPC",
-  "version": "1.0.2",
+  "name": "node-tacocoin",
+  "description": "Communicate with tacocoind via JSON-RPC",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
-    "guldencoin",
+    "tacocoin",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doomhz/node-guldencoin.git"
+    "url": "git://github.com/doomhz/node-tacocoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
