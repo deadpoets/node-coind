@@ -1,7 +1,7 @@
 
-var bankcoin = require('./lib');
+var homocoin = require('./lib');
 
-var client = new bankcoin.Client({
+var client = new homocoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',

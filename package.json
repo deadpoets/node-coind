@@ -1,16 +1,16 @@
 {
-  "name": "node-bankcoin",
-  "description": "Communicate with bankcoind via JSON-RPC",
+  "name": "node-homocoin",
+  "description": "Communicate with homocoind via JSON-RPC",
   "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
-    "bankcoin",
+    "homocoin",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Coinnext/node-bankcoin.git"
+    "url": "git://github.com/Coinnext/node-homocoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
