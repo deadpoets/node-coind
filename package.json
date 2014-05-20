@@ -5,7 +5,14 @@
   "main": "lib/index.js",
   "keywords": [
     "coind",
-    "rpc"
+    "daemon",
+    "rpc",
+    "bitcoin",
+    "litecoin",
+    "dogecoin",
+    "violincoin",
+    "antarcticcoin",
+    "crypto",
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
   "repository": {
