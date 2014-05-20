@@ -1,7 +1,7 @@
 
-var maxcoin = require('./lib');
+var coind = require('./lib');
 
-var client = new maxcoin.Client({
+var client = new coind.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',

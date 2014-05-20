@@ -1,16 +1,16 @@
-# node-maxcoin
+# node-coind
 
-node-maxcoin is a simple wrapper for the maxcoin client's JSON-RPC API.
+node-coind is a simple wrapper for crypto coin daemon client's JSON-RPC API.
 
 ## Install
 
-`npm install node-maxcoin`
+`npm install node-coind`
 
 ## Examples
 
 ### Create client
 ```js
-var client = new maxcoin.Client({
+var client = new coind.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',
@@ -54,18 +54,18 @@ client.cmd(batch, function(err, address) {
 ## SSL
 See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
 
-If you're using this to connect to maxcoind across a network it is highly
+If you're using this to connect to a coind across a network it is highly
 recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
-resulting in theft of your maxcoins.
+resulting in theft of your coins.
 
 When enabling `ssl` by setting the configuration option to `true`, the `sslStrict`
 option (verifies the server certificate) will also be enabled by default. It is 
-highly recommended to specify the `sslCa` as well, even if your maxcoind has
+highly recommended to specify the `sslCa` as well, even if your coind has
 a certificate signed by an actual CA, to ensure you are connecting
-to your own maxcoind.
+to your own coind.
 
 ```js
-var client = new maxcoin.Client({
+var client = new coind.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',

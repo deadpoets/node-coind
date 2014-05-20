@@ -1,16 +1,16 @@
 {
-  "name": "node-maxcoin",
-  "description": "Communicate with maxcoind via JSON-RPC",
+  "name": "node-coind",
+  "description": "Communicate with a any crypto coin daemon via JSON-RPC",
   "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
-    "maxcoin",
+    "coind",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Coinnext/node-maxcoin.git"
+    "url": "git://github.com/Coinnext/node-coind.git"
   },
   "engines": {
     "node": ">= 0.8.0"
