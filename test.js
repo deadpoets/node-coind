@@ -1,7 +1,7 @@
 
-var homocoin = require('./lib');
+var maxcoin = require('./lib');
 
-var client = new homocoin.Client({
+var client = new maxcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',
